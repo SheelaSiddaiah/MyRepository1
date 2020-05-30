@@ -1,0 +1,11 @@
+ETL_Type,Source_Db_type,Source_Application,Source_Db,Source_Db_Table_name,Source_Col_name,Target_Db_type,Target_Db,Target_Db_Table_name,Target_Col_name,Primary_Key,Frequency,Date_Filter
+Type1,mssql,SP,IIOSTG,locationClusterSet,STARTDATE,mssql,ckb,[jdacustom].[csg_store_cluster_in],StartDate,yes,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,ENDDATE,mssql,ckb,[jdacustom].[csg_store_cluster_in],Enddate,,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,CLUSTERNAME,mssql,ckb,[jdacustom].[csg_store_cluster_in],Cluster,yes,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,CATEGORY,mssql,ckb,[jdacustom].[csg_store_cluster_in],Category,yes,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,DESC1,mssql,ckb,[jdacustom].[csg_store_cluster_in],Desc1,,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,DESC2,mssql,ckb,[jdacustom].[csg_store_cluster_in],Desc2,,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,DESC3,mssql,ckb,[jdacustom].[csg_store_cluster_in],Desc3,,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,DESC4,mssql,ckb,[jdacustom].[csg_store_cluster_in],Desc4,,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,DESC5,mssql,ckb,[jdacustom].[csg_store_cluster_in],Desc5,,,
+Type1,mssql,SP,IIOSTG,locationClusterSet,StoreNumber,mssql,ckb,[jdacustom].[csg_store_cluster_in],StoreNumber,Yes,,
