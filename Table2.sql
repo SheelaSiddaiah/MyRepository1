@@ -1,1 +1,4 @@
-﻿Select * from sys.object1;
+
+﻿Select * from sys.objects;
+
+
